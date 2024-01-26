@@ -16,7 +16,7 @@ function meuEscopo () {
         const cadastro = criaPessoa(nome.value, sobrenome.value, peso.value, altura.value);
         pessoas.push(cadastro);
         console.log(pessoas);
-        resultado.innerHTML += (`<p>${cadastro.nome} ${cadastro.sobrenome} ${cadastro.peso} ${cadastro.altura}</p>`);
+        resultado.innerHTML += `<p>${cadastro.nome} ${cadastro.sobrenome} ${cadastro.peso} ${cadastro.altura}</p>`;
     }
 
     function criaPessoa (nome, sobrenome, peso, altura) {
